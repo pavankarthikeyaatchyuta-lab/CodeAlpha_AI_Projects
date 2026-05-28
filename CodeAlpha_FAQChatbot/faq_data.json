@@ -1,0 +1,66 @@
+[
+    {
+        "question": "What is AI?",
+        "answer": "Artificial Intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. These processes include learning, reasoning, and self-correction."
+    },
+    {
+        "question": "How does Machine Learning work?",
+        "answer": "Machine learning works by feeding a computer system a large amount of data, which it uses to learn how to perform a specific task, such as recognizing patterns or making predictions, without being explicitly programmed."
+    },
+    {
+        "question": "What is Deep Learning?",
+        "answer": "Deep learning is a subset of machine learning based on artificial neural networks with multiple layers. These deep architectures allow the system to learn complex representations of data."
+    },
+    {
+        "question": "What is the difference between AI, ML, and DL?",
+        "answer": "AI is the broadest concept of machines mimicking human intelligence. ML is a subset of AI involving machines learning from data. DL is a subset of ML using deep neural networks to learn complex patterns."
+    },
+    {
+        "question": "What are neural networks?",
+        "answer": "Neural networks are computing systems vaguely inspired by the biological neural networks that constitute animal brains. They consist of layers of interconnected nodes or 'neurons' that process information."
+    },
+    {
+        "question": "What is natural language processing or NLP?",
+        "answer": "Natural Language Processing (NLP) is a branch of artificial intelligence that helps computers understand, interpret, and manipulate human language."
+    },
+    {
+        "question": "Who created you?",
+        "answer": "I am an intelligent FAQ chatbot created during the CodeAlpha AI Internship to assist users with their questions."
+    },
+    {
+        "question": "What are your capabilities?",
+        "answer": "I can answer frequently asked questions about artificial intelligence, technology, and my purpose. I use Natural Language Processing and TF-IDF similarity to find the best answer to your questions."
+    },
+    {
+        "question": "What is Streamlit?",
+        "answer": "Streamlit is an open-source Python library that makes it easy to create and share beautiful, custom web apps for machine learning and data science."
+    },
+    {
+        "question": "How do I reset the chat?",
+        "answer": "You can clear the chat history by clicking the 'Clear Chat History' button in the sidebar."
+    },
+    {
+        "question": "Hello / Hi / Hey / Greeting",
+        "answer": "Hello! I am your AI FAQ Assistant. How can I help you explore artificial intelligence today?"
+    },
+    {
+        "question": "How are you doing?",
+        "answer": "I am operating at peak performance! Thank you for asking. How can I assist you with machine learning or AI concepts today?"
+    },
+    {
+        "question": "What is a database?",
+        "answer": "A database is an organized collection of structured data, typically stored electronically in a computer system and managed by a Database Management System (DBMS)."
+    },
+    {
+        "question": "What is a DBMS or Database Management System?",
+        "answer": "A Database Management System (DBMS) is software designed to store, retrieve, define, and manage data in a database. It serves as an interface between the database and its end-users or programs, allowing users to create, read, update, and delete data."
+    },
+    {
+        "question": "Thank you / Thanks",
+        "answer": "You're very welcome! I'm glad I could help. Let me know if you have any other questions."
+    },
+    {
+        "question": "Goodbye / Bye",
+        "answer": "Goodbye! Have a great day ahead, and feel free to chat again whenever you have questions about AI."
+    }
+]
