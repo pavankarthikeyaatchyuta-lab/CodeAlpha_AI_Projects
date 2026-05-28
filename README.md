@@ -4,11 +4,11 @@ This repository contains a suite of four fully functional, production-ready Arti
 
 ---
 
-## 🌌 Shared Premium UI System
-Every project in this suite is styled using a custom design system located in [Shared_UI/ui_utils.py](./Shared_UI/ui_utils.py). Key characteristics of the styling include:
-*   **Futuristic Dark Mode:** A rich linear gradient background (`#0b0f19` to `#1a1b41`) tailored for AI dashboards.
+## 🌌 Premium UI System
+Every project in this suite is styled using a localized design system located inside its respective directory (`ui_utils.py`). Key characteristics of the styling include:
+*   **Futuristic Dark Mode:** A rich linear gradient background tailored for AI dashboards.
 *   **Glassmorphism & Liquid Glass:** Semi-transparent container cards with custom blur backdrops, subtle border gradients, and interactive hover transformations.
-*   **Glow Effects:** Interactive text shadowing and neon button accents (`#00d2ff` & `#92FE9D`).
+*   **Glow Effects:** Interactive text shadowing and neon button accents.
 *   **Micro-Animations:** Fade-in entrances and floating key elements to make the interface feel responsive and alive.
 
 ---
@@ -17,21 +17,23 @@ Every project in this suite is styled using a custom design system located in [S
 
 ```text
 CodeAlpha_AI_Projects/
-├── Shared_UI/                             # Shared UI Styling & CSS Utilities
-│   └── ui_utils.py
 ├── CodeAlpha_LanguageTranslationTool/     # Project 1: AI Language Translator
 │   ├── app.py
+│   ├── ui_utils.py                        # Local UI Styling & Utilities
 │   └── requirements.txt
 ├── CodeAlpha_FAQChatbot/                  # Project 2: NLP FAQ Chatbot
 │   ├── app.py
+│   ├── ui_utils.py                        # Local UI Styling & Utilities
 │   ├── faq_data.json
 │   └── requirements.txt
 ├── CodeAlpha_MusicGenerationAI/           # Project 3: AI Music Composer
 │   ├── app.py
+│   ├── ui_utils.py                        # Local UI Styling & Utilities
 │   ├── model_utils.py
 │   └── requirements.txt
 ├── CodeAlpha_ObjectDetectionTracking/     # Project 4: AI Vision Tracker
 │   ├── app.py
+│   ├── ui_utils.py                        # Local UI Styling & Utilities
 │   ├── webcam_app.py
 │   └── requirements.txt
 └── README.md                              # Main Workspace Documentation

@@ -9,19 +9,14 @@ from gtts import gTTS
 import speech_recognition as sr
 import io
 
-# Add parent directory to path to import shared UI
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-# Force reload Shared_UI.ui_utils to prevent Streamlit/Python caching issues
-if "Shared_UI.ui_utils" in sys.modules:
-    del sys.modules["Shared_UI.ui_utils"]
-if "Shared_UI" in sys.modules:
-    del sys.modules["Shared_UI"]
+# Force reload ui_utils to prevent Streamlit/Python caching issues
+if "ui_utils" in sys.modules:
+    del sys.modules["ui_utils"]
 
 try:
-    from Shared_UI.ui_utils import apply_custom_css, render_header, render_glass_card
+    from ui_utils import apply_custom_css, render_header, render_glass_card
 except ImportError:
-    st.error("Failed to load Shared UI. Please run from the project root.")
+    st.error("Failed to load UI utilities.")
     st.stop()
 
 # Configure Page
